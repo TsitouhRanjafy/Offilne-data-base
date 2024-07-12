@@ -1,5 +1,5 @@
 # Offline Data Base
-Application web qui a le base de donnée hors local avec node.js de pouchdb.
+Application web qui a de base de donnée local avec node.js de pouchdb.
 
 ## installation
 
