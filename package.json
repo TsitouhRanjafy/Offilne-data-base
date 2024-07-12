@@ -1,0 +1,25 @@
+{
+  "name": "pouchdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tsc && node ./dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pouchdb": "^9.0.0",
+    "typescript": "^5.5.3",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/http-status-codes": "^1.2.0",
+    "@types/pouchdb": "^6.4.2",
+    "@types/uuid": "^10.0.0",
+    "http-status-codes": "^2.3.0"
+  }
+}

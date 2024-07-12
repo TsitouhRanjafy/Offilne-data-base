@@ -1,0 +1,15 @@
+/* ********* Créer une application avec Node.js et PouchDB *********\
+
+npm init -y
+npm install express
+npm install pouchdb
+npm i typescript 
+npm i --save-dev @types/express @types/pouchdb
+npm install uuid (pour génère manuellement _id )
+
+PouchDB est livré avec IndexedDB comme adapteur (par defaut)
+Dans Node.js , il est livré avec LevelDB
+
+PouchDB fournit deux méthode pour conserver les données dans une base de données : 
+    - put : vous devez spécifier et _id propriété (recommandé par PouchDB)
+    - post : PouchDB génère automatiquement un _id propriété lorsque nous enregistrons des données avec post
