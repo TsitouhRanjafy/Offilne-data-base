@@ -249,3 +249,6 @@ app.listen(PORT,() =>{
 })
 
 ```
+```bash
+npm test
+```
