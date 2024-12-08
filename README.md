@@ -10,26 +10,26 @@ Application web qui a de base de donnée local avec node.js de pouchdb.
 
 ## installation
 
-```
+```bash
   npm install express pouchdb typescript uuid
 ```
-```
+```bash
   npm install --save-dev @types/express @types/http-status-codes @types/pouchdb @types/uuid 
 ```
 
 ## configuration 
 
-```
+```bash
 npx tsc --init   
 ```
-```
+```json
 // package.json
 "scripts": {
     "test": "npx tsc && node ./dist/server.js"
   },
 ```
 
-```
+```json
 // tsconfig.json
 {
   "compilerOptions": {
@@ -44,7 +44,7 @@ npx tsc --init
   "include": ["src/**/*.ts"]
 }
 ```
-```
+```bash
 // strucure
 src
 ├── Config
@@ -59,7 +59,7 @@ tsconfig.json
 ```
 
 ## code source
-```
+```typescript
 // db.ts
 import PouchDB from 'pouchdb'
 
@@ -70,7 +70,7 @@ const db = new PouchDB('books');
 export default db;
 ```
 
-```
+```typescript
 // book.ts
 import express, {Request,response,Response, Router} from 'express';
 import {v4 as uuid4} from 'uuid';
@@ -191,7 +191,7 @@ export default BooksRouter;
 
 ```
 
-```
+```typescript
 // route.ts
 import { Application ,  Request , Response} from "express";
 import { StatusCodes , ReasonPhrases } from "http-status-codes";
@@ -216,7 +216,7 @@ export default Routes
 
 ```
 
-```
+```typescript
 // server.ts
 import express, { Application,Request,Response, Router } from 'express'
 import db from './Config/db';
