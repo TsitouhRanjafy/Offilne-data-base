@@ -1,7 +1,7 @@
 
 
-<img src="https://github.com/user-attachments/assets/41af579e-a7c5-48c8-9969-a6c11eadbaef" alt="poucDB" width="250" height="250">
-<img src="https://github.com/user-attachments/assets/8fa7e6d5-b3de-48f7-a030-8b1aa51279b7" alt="poucDB" width="250" height="250">
+<img src="https://github.com/user-attachments/assets/41af579e-a7c5-48c8-9969-a6c11eadbaef" alt="poucDB" width="150" height="150">
+<img src="https://github.com/user-attachments/assets/8fa7e6d5-b3de-48f7-a030-8b1aa51279b7" alt="poucDB" width="150" height="150">
 
 
 
